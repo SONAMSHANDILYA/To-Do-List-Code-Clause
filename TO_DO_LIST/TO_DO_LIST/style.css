@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    
+    background-color: rgb(242, 245, 246);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.second{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c2e1f0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+}
+input[type="text"]
+{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 4px solid #1e0228;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    box-sizing: border-box;
+    border: 4px solid #1e0228;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #68906a;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #7ea37f;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    border: 4px solid #24102b;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  button:hover {
+    background-color: #82a782;
+}
+
+  
+
+
+
+
+
+
+
